@@ -1,0 +1,72 @@
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="row border rounded-5 p-3 bg-white cshadow box-are">
+        <div
+            class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box"
+            style="background: #ff9100"
+        >
+            <div class="featured-image mb-3">
+                <img src="3.png" class="img-fluid" style="width: 250px" />
+            </div>
+            <p class="text-white fs-2" style="font-family: Arial, sans-serif; font-weight: 600;">
+                Be verified
+            </p>
+            <small class="text-white-wrap text-white text-center"
+                style="width: 17rem; font-family: Arial, sans-serif; font-size: medium;"
+            >
+                Discover food recipes on this platform
+            </small>
+        </div>
+
+        <div class="col-md-6">
+            <form id="login-form">
+                <div class="row align-items-center">
+                    <div class="header-text mb-4">
+                        <h2>Hello again!</h2>
+                        <p>We are happy to have you back</p>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input
+                            type="text"
+                            class="form-control form-control-lg bg-light fs-6"
+                            placeholder="Username"
+                            id="username"
+                            name="username"
+                            required
+                        />
+                    </div>
+                    <div class="input-group mb-1">
+                        <input
+                            type="password"
+                            id="password"
+                            class="form-control form-control-lg bg-light fs-6"
+                            placeholder="Password"
+                            name="password"
+                            autocomplete="off"
+                            required
+                        />
+                        <div class="input-group-text">
+                            <button type="button" id="togglePassword" class="btn btn-link">
+                            <i class="fas fa-eye" id="toggleIcon"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="input-group mb-5 d-flex justify-content-between">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="formCheck" />
+                            <label for="formCheck" class="form-check-label text-primary">
+                                <small>Remember Me</small>
+                            </label>
+                        </div>
+                        <div class="forgot">
+                            <small><a href="./phpmailer/forgotpass.php">Forgot Password?</a></small>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input
+                            class="btn btn-lg btn-warning w-100 fs-6"
+                            type="button"
+                            value="Login"
+                            id="login"
+                            name="login"
+                        />
+                    </div>
